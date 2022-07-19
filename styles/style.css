@@ -133,3 +133,49 @@ header {
   font-style: normal;
   font-weight: 600;
 }
+footer {
+  padding: 20px;
+  background-color: #1f2937;
+  color: #f9faf8;
+  font-size: 20px;
+}
+footer p {
+  text-align: center;
+}
+footer a {
+  text-decoration: none;
+  color: #c2c5cc;
+}
+footer a:hover {
+  font-size: 25px;
+  text-decoration: underline;
+}
+.before-footer {
+  margin: 100px;
+  padding: 50px 100px 50px 100px;
+  background-color: #3882f6;
+  color: #f9faf8;
+  display: flex;
+  font-size: 20px;
+  align-items: center;
+  border-radius: 10px;
+}
+.before-footer > div > span:first-of-type {
+  font-size: 25px;
+  font-weight: 600;
+  padding: 0;
+}
+.before-footer > div {
+  display: flex;
+  flex-direction: column;
+  flex: 2 1 auto;
+}
+.before-footer > button {
+  font-size: inherit;
+  padding: 10px 25px;
+  color: #f9faf8;
+  font-weight: 600;
+  background-color: #3882f6;
+  border: 3px solid #fff;
+  border-radius: 10px;
+}
