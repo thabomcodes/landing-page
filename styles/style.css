@@ -119,3 +119,17 @@ header {
   font-weight: 700;
   font-size: 1.2rem;
 }
+
+.quote-section {
+  background-color: #e5e7eb;
+  color: #1f2937;
+  font-weight: 300;
+  font-size: 36px;
+  padding: 50px 150px;
+  font-style: italic;
+}
+.quote-section p {
+  text-align: right;
+  font-style: normal;
+  font-weight: 600;
+}
